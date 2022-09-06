@@ -29,6 +29,7 @@ div.categorie{
 }
 div.categorie p{
     font-size: 15px;
+    padding: 2px;
     width: 90px;
 }
 
