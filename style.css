@@ -1,127 +1,189 @@
+
+*{
+}
 body{
-    background-color: #8BA1BB;
+    background-color: rgb(139, 161, 187);
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-}
-p.cathegorie{
-    background-color: #000000;
-    color: white;
-    display: inline-block;
-    font-size: 25px;
-    width: 100px;
-    font-weight: bold;
-    padding: 10px;
 
 }
 
-.center{
-    text-align: center;
-    width: 100%;
 
-
-
-}
-div.contenir{
-background-color: rgb(250, 250, 250);   
-margin: 30px;
-padding: 30px;
-box-shadow: 0 0 10px 5px;
+div.contenair{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 10px;
 
 }
-h1.titre{
-    text-align: center;
-
-}
-p.description{
-    width: 400px;
-    display: inline-block;
-    font-size: 15px;
-
-}
-div.cath{
-    margin-bottom: -80px;
-}
-div.description{
-    text-align: center;
-}
-div.separateur{
-    width: 150px;
-    height: 1px;
+div.categorie{
     background-color: black;
+    margin: 0px 40%;
+    font-size: 17px;
+    width: 100px;
+    padding: 0px;
+    display: inline-block;
+    margin-bottom: -25px;
+    overflow: auto;
+    color: #fff;
+
+}
+div.categorie p{
+    margin: 10px;
+}
+div.contenair h1{
+}
+.center{
+
+    text-align: center;  
+             
+                    
+}
+
+
+div.description{
+    width: 400px;
     margin: auto;
 
 }
 
-div.info{
-position: relative;
+.separateur{
+    width: 200px;
+    border-bottom: 1px solid black;
+    margin: 30px auto;
 
 }
-table.info{
-    position: absolute;
-    bottom: 0;
+div.image{
+
+    margin-top: 40px;
+ 
+    position: relative;
+
+}
+div.image img {
+
+   box-shadow: 0px 0px 6px 2px rgb(90, 93, 95);
+   object-fit: cover;
+   display: block;  
+   width: 100%;
+
+
+}
+div.image table{
+    position:absolute;
+    bottom: 0px;
     width: 100%;
-    color:white;
-    background-color: #6C829DC5;
-    height: 80px;
-
-}
-
-table.info td{
+    background-color: rgb(213, 229, 242);
+    opacity: 0.6;
     text-align: center;
-    font-size: 14px;
-    vertical-align: top;
+    height: 100px;
+
 }
-table.info th{
-    font-size: 18px;
+div.image table th{
     vertical-align: bottom;
-    padding-top: 20px;
-}
-img.info{
-    display: block;
-    min-width: 400px;
-    object-fit: cover;
-    min-height: 300px;
-    background-color: gainsboro;
-}
-div.colonne1,div.colonne2{
-    width: 45%;
-}
+    font-weight: bold;
 
+}
+div.image table td{
+    vertical-align: top;
 
-div.colonne h1{
+}
+div.coll{
+    background-color: #fff;
+    width: 100%;
+}
+div.colonne1 h2{
+    padding: 5px;
+    border-bottom: 5px solid rgb(213, 229, 242);
     text-align: center;
-    font-size:23px;
-    text-transform: uppercase;
-    border-bottom: 5px solid #6C829D;
-    
+
 }
 div.colonne1{
-display: inline-block;
-margin-right: 10%;
+    width: 100%;
+    display: block;
+
+
+}
+div.colonne1 P{
+border: 1PX solid black;
+padding: 5px;
+text-align: center;
+
+
 }
 div.colonne2{
-float: right;
+    width: 100%;
+
+}
+div.colonne2 h2{
+    padding: 5px;
+    border-bottom: 5px solid rgb(213, 229, 242);
+    text-align: center;
+
+}
+div.colonne2 .numero{
+    font-size: 20px;
+    background-color: rgb(213, 229, 242);
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+}
+div.colonne2 .num{
+    text-align: center;
+    padding: 10px;
 }
 
-div.ingredients p{
-    border: 1px solid #6C829D;
+
+@media only screen and (min-width: 768px) {
+    div.categorie{
+        background-color: black;
+        margin: 3px 46%;
+        width: 100px;
+        margin-bottom: -25px;
+        display: inline-block;
+    
+    }
+    div.description{
+        width: 400px;
+        margin: auto;
+    
+    }
+    div.colonne1{
+        width: 45%;
+        margin-right: 10%;
+        display: inline-block;
+    
+    
+    }
+    div.colonne1 P{
+    border: 1PX solid black;
+    padding: 5px;
     text-align: center;
-    padding: 10px;
-    margin-top: 4px;
-    margin-bottom: 1px;
-}
-table.preparation .numero{
-    background-color: #6C829D;
-;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    box-sizing: border-box;
-    vertical-align: top;
-    margin: 5px;
+    
+    
+    }
+    div.colonne2{
+        float: right;
+        width: 45%;
+    
+    }
+    div.colonne2 h2{
+        padding: 5px;
+        border-bottom: 5px solid rgb(213, 229, 242);
+        text-align: center;
+    
+    }
+    div.colonne2 .numero{
+        font-size: 20px;
+        background-color: rgb(213, 229, 242);
+        width: 50px;
+        border-radius: 100%;
+        height: 50px;
+    }
+    div.colonne2 .num{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    
+    
 }
