@@ -147,6 +147,7 @@ span{
 .col60{
 
     width: 60%;
+    padding-left: 16px;
 }
 div.text-avec-ligne-verticale{
    
@@ -241,3 +242,44 @@ iframe{
 .phover:hover{
     text-decoration: underline 2px   #4287cb ;
 }
+@media only screen and (max-width: 768px) {
+
+    .cover-profil{
+
+        
+        margin-top: 70px;
+    }
+    h2{
+       
+        margin: 0px;
+        padding-bottom: 10px;
+    } 
+    .cover p{
+        margin-top: 0px;
+    }
+   .section-grise1{
+    width: 100%;
+   }
+   .section-blanc1 img{
+    width: 100%;
+   }
+   .section-blanc1 .col60{
+    float:none ;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 0px;
+   }
+   .col60 .text-ligne-verticale{
+    margin-left: 0;
+   }
+   .col_portfolio{
+    width: 100%;
+   }
+   .section-blanc2{
+    height: 400px;
+   }
+   .frame{
+    height: 400px;
+   }
+}
+
